@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar {
+    border-bottom: solid black 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index:1;
+}
+
+.navbar__s1__title {
+    color: #a435f0;
+
+}
+
+.navbar__s2 {
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.navbar__s2__searchbox {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.navbar__s2__searchbox:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.categories {
+    border-bottom: solid black 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories p {
+
+    color: white;
+    background-color: #a435f0;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.categories p:hover {}
+
+.sale_img img {
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.recommended {
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.recommended__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.container__course {
+    width: 250px;
+}
+
+.container__course img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.topics {
+    padding: 10px;
+
+}
+
+.topics__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p {
+    border: solid black 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.footer__one p{
+   margin: 20px;
+}
+.sale__img__offer{
+    background-color: white;
+    width: 35%;
+    padding: 2%;
+    position: absolute;
+    bottom: 180px;
+    left: 100px;
+}
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+        width: 100px;
+        top: 150%;
+        right: 0;
+        padding: 20px;
+        display: none;
+}
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
