@@ -20,7 +20,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: white;
-    z-index:1;
+    z-index: 1;
 }
 
 .navbar__s1__title {
@@ -73,14 +73,48 @@ body {
     border-radius: 20px;
     padding: 10px;
     cursor: pointer;
+    border: solid #a435f0 1px;
+    transition: 0.35s;
 }
 
-.categories p:hover {}
+.categories p:hover {
+    background-color: transparent;
+    color: black;
+    border: solid #a435f0 1px;
+    
+}
 
 .sale_img img {
     width: 100%;
     margin-bottom: 0px;
     position: relative;
+}
+
+.sale__img__offer {
+    background-color: white;
+    width: 35%;
+    padding: 2%;
+    position: absolute;
+    border: solid black 1px;
+    left: 100px;
+    top: 30%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
 }
 
 .recommended {
@@ -127,46 +161,45 @@ body {
 
 
 }
-.footer{
+
+.footer {
     padding: 30px;
     background-color: black;
     color: white;
 }
-.footer__one{
+
+.footer__one {
     display: flex;
     gap: 10px;
 }
-.footer__two{
+
+.footer__two {
     display: flex;
     justify-content: space-between;
     margin: 20px;
     align-items: center;
 }
-.footer__one p{
-   margin: 20px;
+
+.footer__one p {
+    margin: 20px;
 }
-.sale__img__offer{
-    background-color: white;
-    width: 35%;
-    padding: 2%;
-    position: absolute;
-    bottom: 180px;
-    left: 100px;
-}
-.mylearning{
+
+.mylearning {
     position: relative;
     cursor: pointer;
 }
-.mylearning__popup{
+
+.mylearning__popup {
     position: absolute;
     background-color: white;
     border: solid black 1px;
-        width: 100px;
-        top: 150%;
-        right: 0;
-        padding: 20px;
-        display: none;
+    width: 100px;
+    top: 150%;
+    right: 0;
+    padding: 20px;
+    display: none;
 }
-.mylearning:hover .mylearning__popup{
+
+.mylearning:hover .mylearning__popup {
     display: block;
 }
