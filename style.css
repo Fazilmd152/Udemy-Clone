@@ -233,7 +233,7 @@ body {
         font-size: 8px
     }
 }
-@media screen and (max-width:400px){
+@media screen and (min-width:200px){
     .menu{display: block;}
     .navbar__s3,.navbar__s2,.categories{
         display: none;
