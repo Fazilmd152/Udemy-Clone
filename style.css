@@ -216,12 +216,24 @@ body {
         font-size: 10px;
     }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     .container__course {
         flex-basis: 40%;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
+    .menu{display: block;}
+    .navbar__s3,.navbar__s2,.categories{
+        display: none;
+    }
+    .sale__img__offer{width: 30%;
+        left: 7%;
+        top: 12%;
+        height:fit-content;
+        font-size: 8px
+    }
+}
+@media screen and (max-width:600px){
     .menu{display: block;}
     .navbar__s3,.navbar__s2,.categories{
         display: none;
