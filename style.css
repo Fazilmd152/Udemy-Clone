@@ -211,16 +211,17 @@ body {
     display: block;
 }
 
-@media screen and (max-width:800px) {
-    body {
-        font-size: 10px;
-    }
-}
 @media screen and (max-width:1000px) {
     .container__course {
         flex-basis: 40%;
     }
 }
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width:800px){
     .menu{display: block;}
     .navbar__s3,.navbar__s2,.categories{
