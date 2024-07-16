@@ -23,12 +23,12 @@ body {
     z-index: 1;
 }
 
-.navbar__s1__title {
+.navbar h1 {
     color: #a435f0;
 
 }
 
-.navbar__s2 {
+.search {
     border: solid black 1px;
     padding: 10px;
     border-radius: 20px;
@@ -40,7 +40,7 @@ body {
 
 }
 
-.navbar__s2__searchbox {
+.search input {
     border: none;
     display: inline-block;
     width: 100%;
@@ -48,14 +48,13 @@ body {
     background-color: transparent;
 }
 
-.navbar__s2__searchbox:focus {
+.search input:focus {
     outline: none;
 }
 
-.navbar__s3 {
+.navbar-menu {
     display: flex;
     align-items: center;
-
     gap: 16px;
 }
 .menu{
@@ -86,20 +85,20 @@ body {
 
 }
 
-.sale_img img {
+.sales img {
     width: 100%;
     margin-bottom: 0px;
     position: relative;
 }
 
-.sale__img__offer {
+.sale-offer {
     background-color: white;
     width: 35%;
     padding: 2%;
     position: absolute;
     border: solid black 1px;
-    left: 100px;
-    top: 30%;
+    left: 6%;
+    top: 40%;
     animation-name: zoom;
     animation-duration: 1s;
     opacity: 0;
