@@ -85,10 +85,13 @@ body {
 
 }
 
+.sales{
+    position: relative;
+}
 .sales img {
     width: 100%;
-    margin-bottom: 0px;
-    position: relative;
+   
+    
 }
 
 .sale-offer {
@@ -97,8 +100,8 @@ body {
     padding: 2%;
     position: absolute;
     border: solid black 1px;
-    left: 6%;
-    top: 40%;
+    top:30% ;
+    left: 10%;
     animation-name: zoom;
     animation-duration: 1s;
     opacity: 0;
@@ -223,14 +226,13 @@ body {
 
 @media screen and (max-width:800px){
     .menu{display: block;}
-    .navbar__s3,.navbar__s2,.categories{
+    .search,.navbar-menu,.categories{
         display: none;
     }
-    .sale__img__offer{width: 30%;
-        left: 7%;
-        top: 12%;
-        height:fit-content;
-        font-size: 8px
+    .sale-offer{width: 30%;
+        left: 10%;
+        top: 30%;
+        font-size: 1.2vw;
     }
 }
 @media screen and (max-width:400px){
